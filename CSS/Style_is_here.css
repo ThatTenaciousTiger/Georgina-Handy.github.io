@@ -62,6 +62,8 @@ p1{
     border: 10px solid white;
     background: azure;   
     display:grid;
+    gap: 30px;
+    font-weight: 800;
     grid-template-columns: 1fr 1fr; 
 }
 .what_do{
