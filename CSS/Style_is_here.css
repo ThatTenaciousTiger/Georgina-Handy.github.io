@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #64a8e7b8;}
+footer{
+    background-color: #64a8e7b8;
+    height:100%;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.hap{   
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.Head_bar{
+    height:100%;
+    padding: 10px;
+    width: 100%;
+    background: #64a8e7b8;
+    display:flex;
+    justify-content: space-between;
+}
+.LOGO_IMG{
+    width: 80px;
+    height: auto;
+}
+.Light_Head_Bar{
+    background-color: azure;
+    display:flex;
+    flex-direction: row;
+    /*change if more items*/
+    justify-content: center;
+    height:100%;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right:50px;
+    width: 100%;
+    /* border: 3px solid black; */
+}
+p1{
+    font-size:x-large;
+}
+.Tool_box{
+    height:33vh;
+    background-image: url(../IMG/pexels-suntorn-somtong-386224-1029243.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display:grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-items: center;
+    align-items: center;  
+}
+.Items{
+    border: 10px solid white;
+    background: azure;   
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+}
+.what_do{
+    display: grid;
+    background-color: azure;
+    height:40vh;
+    border: 3px solid grey;
+    justify-items: center;
+    align-items: center;
+}
+
+.Contact-Container{
+    width: 50vh;
+    height: 20vh;
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.Contact-Left{
+    display: flex;
+    /* border: 10px solid black; */
+    flex-direction: column; 
+    gap: 10px;   
+    justify-items: center;
+    align-items: center;
+}
+.Tools{
+    text-align: start;
+}
+
+.contact-inputs{
+    width: 400px;
+    height:20px;
+    border:none;   
+    outline:none;
+    padding-left: 25px;
+    font-weight: 500;
+    border-radius: 50px;
+
+}
+
+.contact-inputs:focus{
+    border: 2px solid orange;
+}
+
+.contact-inputs::placeholder{
+    color:black;
+    
+}
+.Contact-Left button{
+    width: 150px;
+    height:20px;
+    display: flex;
+    align-items:center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color:#fff;
+    gap: 10px;
+    border-radius:50px ;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    cursor: pointer
+}
+.Arrow_img{
+    height:30px;
+}
+
+.Contact-Left_Title hr{
+    width: 150px;
+}
+/* Do tital and Hr(horazontal rule) */
